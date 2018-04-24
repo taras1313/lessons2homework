@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>youtube</title>
+</head>
+
+<body>
+    <header>
+        <a href="https://www.youtube.com/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/512px-YouTube_Logo_2017.svg.png" width="130" height="20" alt="test"></a>
+        
+        <form method="post" action="file.php">
+           <label>
+                <input type="text" name="video_name" placeholder="search"/>
+           </label>
+                <input type="submit" name="search" value="search.png" />
+        <!--як помістити картинку в кнопку пошуку?-->
+        </form>
+        <br>
+            <input type="image" name="create_video" src="https://image.flaticon.com/icons/svg/23/23697.svg" width="30" height="30" alt="test">
+            <input type="image" name="addons"  src="https://vignette.wikia.nocookie.net/nintendo/images/d/d8/Artwork_-_BRICK_BLOCK.svg/revision/latest?cb=20160218014221&path-prefix=en" width="30" height="30" alt="test">
+            <input type="image" name="bell"  src="https://cdn.pixabay.com/photo/2015/12/16/17/41/bell-1096279_960_720.png" width="30" height="30" alt="test">
+            <input type="image" name="your_channel"  src="https://upload.wikimedia.org/wikipedia/commons/3/34/NYCS-bull-trans-T.svg" width="30" height="30" alt="test">
+    </header>
+    <hr>
+    <br>
+    <main>
+        <section>
+            <h3>video_panel</h3>
+            <article>
+                <h3>video</h3>
+                <!--як обійтись без х2-6 щоб пройти валідатор?-->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/C-70pciGk28"  allowfullscreen></iframe>
+            </article>
+            <article>
+                <h2>Anthony Johnson TOP 5 KNOCKOUTS in UFC MMA | Combat Life</h2>
+                <h3>10 000 переглядів</h3>
+                <form method="post" action="file.php">
+                    <input type="image" src="https://www.appaclean.com/wp-content/uploads/2017/11/daeb489a9da72c270677698e66765a9a-thumbs-up-flat-icon-by-vexels.png" width="30" height="30" name="like" alt="test"> 100500 
+                    <input type="image" src="https://icon-icons.com/icons2/631/PNG/512/dislike-social-interface-symbol-of-thumb-down-hand-outline_icon-icons.com_57994.png" width="30" height="30" name="dislike" alt="test"> 0 
+                    <input type="submit" name="subscribe" value="поділитись.png">
+                    <input type="submit" name="add" value="додати відео.png">
+                    <!--чи буде тайп імейдж рівноцінним баттону, якщо ми хочемо щоб він виконував фунцію кнопки?-->
+                </form>            
+            </article>
+            <hr>
+            <br>
+        </section>
+        <aside>
+            <h3>Наступне відео</h3>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/NTELzwcDiLU"  allowfullscreen></iframe>
+            <hr>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/ve1acwtuPJg"   allowfullscreen></iframe>
+            <br>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/O-Zb5SsV7xY"  allowfullscreen></iframe>
+            <br>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/z-N-oOdFoC0"   allowfullscreen></iframe>
+            <br>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/8g9cyTYISZU"   allowfullscreen></iframe>
+            <br>
+        </aside>
+        <section>
+            <form method="post" action="file.php">
+                <h3>Коментарі</h3>
+                    <textarea rows="10" cols="50"></textarea>
+                    <input type="submit" name="submit_button" value="Відправити коментар">
+            </form>
+        </section>
+    </main>
+
+
+</body>
+
+</html>
