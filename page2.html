@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
     <main>
         <section>
@@ -14,130 +16,148 @@
             <article>
                 <h3>Почнемо?</h3>
                 <form method="post" action="https://formspree.io/jakimuk.taras.semenowuch@gmail.com">
-                        <fieldset>
-                            <legend>Заповніть таблицю</legend>
-                            <label> Ваше ім'я 
+                    <fieldset>
+                        <legend>Заповніть таблицю</legend>
+                        <label> Ваше ім'я 
                                 <br>
                                 <input type="text" name="user_name" placeholder="Ім'я" required>
                             </label>
-                            <br>
-                            <br>
-                            <label> Ваша поштова скринька
+                        <br>
+                        <br>
+                        <label> Ваша поштова скринька
                                 <br>
                                 <input type="email" name="user_email" placeholder="type_address@gmail.com" required>
                             </label>
-                            <br>
-                            <br>
-                            <label> Ваш вік
+                        <br>
+                        <br>
+                        <label> Ваш вік
                                 <br>
                                 <input type="text" name="user_age" placeholder="107">
                             </label>
-                            <br>
-                            <br>
-                            <label> Номер вашої карти ПриватБанк
+                        <br>
+                        <br>
+                        <label> Номер вашої карти ПриватБанк
                                <br><input type="text" name="card_data1" placeholder="48427582950127562" required>
                             </label>
-                            <br>
-                            <br>
-                            <label> Пін-код вашої карти ПриватБанк
+                        <br>
+                        <br>
+                        <label> Пін-код вашої карти ПриватБанк
                                <br>
                                <input type="password" name="card_data2" placeholder="3147" required>
                             </label>
-                            <br>
-                            <br>
-                            <label>Які у вас доходи?</label>
-                            <br>
-                            <br>
-                                <label>                              
+                        <br>
+                        <br>
+                        <label>Які у вас доходи?</label>
+                        <br>
+                        <br>
+                        <label>                              
                                         <input type="radio" name="possible_profit" value=">6000" required> >6000  
                                 </label>
-                                <br>
-                                <label>                              
+                        <br>
+                        <label>                              
                                     <input type="radio" name="possible_profit" value="6000-12000" required> 6000-12000  
                                 </label>
-                                <br>
-                                <label>                              
+                        <br>
+                        <label>                              
                                     <input type="radio" name="possible_profit" value="12000+" required> 12000+ 
                                 </label>
-                                <br>
-                                <br>
-                            <label>Де у вас вдома лежать гроші? </label>
-                            <br>
-                            <br>
-                                <label>                              
+                        <br>
+                        <br>
+                        <label>Де у вас вдома лежать гроші? </label>
+                        <br>
+                        <br>
+                        <label>                              
                                     <input type="radio" name="money_bag" value="under my bett" required> Під ліжком  
                                 </label>
-                                <br>
-                                <label>
+                        <br>
+                        <label>
                                     <input type="radio" name="money_bag" value="in my shooes"> В туфлях на балконі
                                 </label>
-                                <br>
-                                <label> 
+                        <br>
+                        <label> 
                                     <input type="radio" name="money_bag" value="failure" disabled> Щось підозріло -_-
                                 </label>
-                                <br>
-                                <br>
-                            <label>Ваш адрес</label>
-                                    <label>
+                        <br>
+                        <br>
+                        <label>Ваш адрес</label>
+                        <label>
                                         <input type="text" name="address" placeholder="кульпарківська 44,5" required>
                                     </label>
-                                    <br>
-                                    <br>
-                            <label>Вкажіть робочі години, коли вас ТОЧНО немає вдома</label>
-                            <br>
-                                    <label>
+                        <br>
+                        <br>
+                        <label>Вкажіть робочі години, коли вас ТОЧНО немає вдома</label>
+                        <br>
+                        <label>
                                         З <input type="text" name="free_hours_from" placeholder="9:00" required>
                                     </label>
-                                    <label>
+                        <label>
                                         До <input type="text" name="free_hours_to" placeholder="18:00" required>
                                     </label>
-                                    <br>
-                                    <br>
-                            <fieldset>
-                                <legend>Оберіть правильні відповіді</legend>    
-                                    <label>Де ви любите гуляти вечорами?</label>
-                                    <br>
-                                    <br>
-                                    <select name="target_place" size="4" multiple>
+                        <br>
+                        <br>
+                        <fieldset>
+                            <legend>Оберіть правильні відповіді</legend>
+                            <label>Де ви любите гуляти вечорами?</label>
+                            <br>
+                            <br>
+                            <select name="target_place" size="4" multiple>
                                         <option value="forest">Ліс на Кульпарківській</option>
                                         <option value="to_many_peoples">Ашан</option>
                                         <option value="near_house">На лавочках біля дому</option>
                                         <option value="failure">Не гуляю вечорами</option>
-                                    </select>
-                                    <br>
-                                    <br>
-                                    <label>У вас є собака?</label>
-                                    <br>
-                                        <input type="radio" name="dog" value="there is dog("> є 
-                                        <br>
-                                        <input type="radio" name="dog" value="there is no dog)"> нема
-                                        <br>
-                                        <br>
-                                    <label>Що ви носите з собою під час прогулянки?</label>
-                                    <br>
-                                        <input type="checkbox" name="bag" value="knife"> ніж
-                                        <br>
-                                        <input type="checkbox" name="bag" value="shocker"> шокер
-                                        <br>
-                                        <input type="checkbox" name="bag" value="desert_eagle"> травматичний пістолет 
-                                        <br>
-                                        <input type="checkbox" name="bag" value="gold_1_kg"> унція золота
-                                        <br>
-                                        <br>
-                                    <label>Маєте побажання для покращення сервісу?</label>
-                                    <br>
-                                    <br>
-                                        <textarea name="message" rows="10" cols="30" placeholder="Коментар"></textarea>
-                                        
-                                        
-                                    
-                            </fieldset>
+                                </select>
+                            <br>
+                            <br>
+                            <label>У вас є собака?</label>
+                            <br>
+                            <input type="radio" name="dog" value="there is dog("> є
+                            <br>
+                            <input type="radio" name="dog" value="there is no dog)"> нема
+                            <br>
+                            <br>
+                            <label>Що ви носите з собою під час прогулянки?</label>
+                            <br>
+                            <input type="checkbox" name="bag" value="knife"> ніж
+                            <br>
+                            <input type="checkbox" name="bag" value="shocker"> шокер
+                            <br>
+                            <input type="checkbox" name="bag" value="desert_eagle"> травматичний пістолет
+                            <br>
+                            <input type="checkbox" name="bag" value="gold_1_kg"> унція золота
+                            <br>
+                            <br>
+                            <label>Маєте побажання для покращення сервісу?</label>
+                            <br>
+                            <br>
+                            <textarea name="message" rows="10" cols="30" placeholder="Коментар"></textarea>
+                        </fieldset>
                     </fieldset>
                     <br>
                     <input type="submit" value="Відправити">
                 </form>
+                <article>
+                    <h2>Динаміка росту нашої клієнтури</h2>
+                    <table border="1">
+                        <tr>
+                            <th colspan="2">Квартальна динаміка за 2017р.</th><th>Кількість повісток в суд</th>
+                        </tr>
+                         <tr>
+                            <th>1 Квартал</th><td>38</td><td>0</td>
+                        </tr>
+                         <tr>
+                            <th>2 Квартал</th><td>22</td><td>10</td>
+                        </tr>
+                         <tr>
+                            <th>3 Квартал</th><td>5</td><td>31</td>
+                        </tr>
+                         <tr>
+                            <th>4 Квартал</th><td>-8</td><td>це вже не важливо</td>
+                        </tr>
+                    </table>
+                </article>
             </article>
         </section>
     </main>
 </body>
+
 </html>
